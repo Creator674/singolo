@@ -1,0 +1,38 @@
+html{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1020px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+header{
+    width: 80%;
+    height: 76px;
+    background-color: black;
+}
+
+main{
+    width: 80%;
+    height: 480px;
+    background-color: red;
+}
+
+footer{
+    width: 80%;
+    height: 400px;
+    background-color: whitesmoke;
+}
