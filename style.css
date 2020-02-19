@@ -25,13 +25,13 @@ header{
     background-color: black;
 }
 
-.header_block{
+.header__block{
     width: 1020px;
     height: 89px;
     background-color: #2d303a;
 }
 
-.header_straightLine{
+.header__straightLine{
     width: 1020px;
     height: 6px;
     background-color: #323746;
@@ -43,13 +43,87 @@ main{
     background-color: red;
 }
 
-.main_block{
+.main__block{
+    display: flex;
+    flex-direction: row;
     width: 1020px;
     height: 594px;
     background-color: #f06c64;
 }
 
-.main_straightLine{
+.main__leftArrow{
+    position: relative;
+    margin: 279px 0px 0px 35px;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets/images/arrowLeft.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__iphoneVertical{
+    width: auto;
+    height: auto;
+}
+
+.iphoneVertical__body{
+    position: relative;
+    margin: 40px 0 0 34px;
+    width: 240px;
+    height: 483px;
+    background-image: url("./assets/images/iphoneVertical.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.iphoneVertical__shadow{
+    position: relative;
+    margin: -479px 0 0 16px;
+    width: 300px;
+    height: 500px;
+    background-image: url("./assets/images/shadowVertical.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__iphoneHorizontal{
+    width: auto;
+    height: auto;
+}
+
+.iphoneHorizontal__body{
+    position: relative;
+    margin: 173px 0px 0px 44px;
+    width: 458px;
+    height: 216px;
+    background-image: url("./assets/images/iphoneHorizontal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.iphoneHorizontal__shadow{
+    position: relative;
+    margin: -215px 0 0 44px;
+    width: 483px;
+    height: 240px;
+    background-image: url("./assets/images/shadowHorizontal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__rightArrow{
+    position: relative;
+    margin: 279px 0 0 49px;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets/images/arrowRight.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__straightLine{
     width: 1020px;
     height: 6px;
     background-color: #ea676b;
@@ -61,13 +135,13 @@ footer{
     background-color: whitesmoke;
 }
 
-.footer_block{
+.footer__block{
     width: 1020px;
     height: 494px;
     background-color: #f2f2f2;
 }
 
-.footer_straightLine{
+.footer__straightLine{
     width: 1020px;
     height: 6px;
     background-color: #ffffff;
