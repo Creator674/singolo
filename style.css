@@ -59,12 +59,12 @@ main{
     background-image: url("./assets/images/arrowLeft.png");
     background-position: center;
     background-repeat: no-repeat;
-    transition: 0.4s;
 }
 
 .main__leftArrow:hover{
     transform: scale(1.5, 1.5);
     cursor: pointer;
+    transition: 0.4s;
 }
 
 .main__iphoneVertical{
@@ -127,11 +127,11 @@ main{
     background-image: url("./assets/images/arrowRight.png");
     background-position: center;
     background-repeat: no-repeat;
-    transition: 0.4s;
 }
 .main__rightArrow:hover{
     transform: scale(1.5, 1.5);
     cursor: pointer;
+    transition: 0.4s;
 }
 
 .main__straightLine{
