@@ -85,7 +85,7 @@ main{
 
 .iphoneVertical__shadow{
     position: relative;
-    margin: -479px 0 0 16px;
+    margin: -480px 0 0 17px;
     width: 300px;
     height: 500px;
     background-image: url("./assets/images/shadowVertical.png");
@@ -100,7 +100,7 @@ main{
 
 .iphoneHorizontal__body{
     position: relative;
-    margin: 173px 0px 0px 44px;
+    margin: 173px 0px 0px 43px;
     width: 458px;
     height: 216px;
     background-image: url("./assets/images/iphoneHorizontal.png");
@@ -156,4 +156,73 @@ footer{
     width: 1020px;
     height: 6px;
     background-color: #ffffff;
+}
+
+.header__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    height: 89px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    height: 89px;
+    margin: 0 0 2px 42px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: 'Lato-Light', sans-serif;
+    text-transform: uppercase;
+}
+
+.logo__name_white{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.logo__name_red{
+    margin: 0;
+    padding: 0;
+    color:red;
+}
+
+.navMenu__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 388px;
+    height: 50px;
+    margin: 2px 23px -7px 0;
+    padding: 0;
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+.navMenu__home_red{
+    margin: 0 15px 0 0;
+    padding: 0;
+    color: red;
+}
+.navMenu__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    margin: 0;
+    padding: 0;
 }
