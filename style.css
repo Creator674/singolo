@@ -5,7 +5,6 @@ html{
     width: 100%;
     height: auto;
 }
-
 body {
     display: flex;
     justify-content: center;
@@ -18,31 +17,26 @@ body {
     padding: 0;
     background-color: lightblue;
 }
-
 header{
     width: 1020px;
     height: auto;
     background-color: black;
 }
-
 .header__block{
     width: 1020px;
     height: 89px;
     background-color: #2d303a;
 }
-
 .header__straightLine{
     width: 1020px;
     height: 6px;
     background-color: #323746;
 }
-
 main{
     width: 1020px;
     height: auto;
     background-color: red;
 }
-
 .main__block{
     display: flex;
     flex-direction: row;
@@ -50,7 +44,6 @@ main{
     height: 594px;
     background-color: #f06c64;
 }
-
 .main__leftArrow{
     position: relative;
     margin: 279px 0px 0px 35px;
@@ -60,18 +53,15 @@ main{
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .main__leftArrow:hover{
     transform: scale(1.5, 1.5);
     cursor: pointer;
     transition: 0.4s;
 }
-
 .main__iphoneVertical{
     width: auto;
     height: auto;
 }
-
 .iphoneVertical__body{
     position: relative;
     margin: 40px 0 0 34px;
@@ -82,7 +72,6 @@ main{
     background-repeat: no-repeat;
     z-index: 1;
 }
-
 .iphoneVertical__shadow{
     position: relative;
     margin: -480px 0 0 17px;
@@ -92,12 +81,10 @@ main{
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .main__iphoneHorizontal{
     width: auto;
     height: auto;
 }
-
 .iphoneHorizontal__body{
     position: relative;
     margin: 173px 0px 0px 43px;
@@ -108,7 +95,6 @@ main{
     background-repeat: no-repeat;
     z-index: 1;
 }
-
 .iphoneHorizontal__shadow{
     position: relative;
     margin: -215px 0 0 44px;
@@ -118,7 +104,6 @@ main{
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .main__rightArrow{
     position: relative;
     margin: 279px 0 0 49px;
@@ -133,31 +118,26 @@ main{
     cursor: pointer;
     transition: 0.4s;
 }
-
 .main__straightLine{
     width: 1020px;
     height: 6px;
     background-color: #ea676b;
 }
-
 footer{
     width: 1020px;
     height: auto;
     background-color: whitesmoke;
 }
-
 .footer__block{
     width: 1020px;
     height: 494px;
     background-color: #f2f2f2;
 }
-
 .footer__straightLine{
     width: 1020px;
     height: 6px;
     background-color: #ffffff;
 }
-
 .header__block{
     display: flex;
     justify-content: space-between;
@@ -168,7 +148,6 @@ footer{
     margin: 0;
     padding: 0;
 }
-
 .logo__wrapper{
     display: flex;
     justify-content: center;
@@ -183,19 +162,16 @@ footer{
     font-family: 'Lato-Light', sans-serif;
     text-transform: uppercase;
 }
-
 .logo__name_white{
     margin: 0;
     padding: 0;
     color: white;
 }
-
 .logo__name_red{
     margin: 0;
     padding: 0;
     color:#f06c64;
 }
-
 .navMenu__wrapper{
     display: flex;
     justify-content: center;
@@ -226,7 +202,6 @@ footer{
     margin: 0;
     padding: 0;
 }
-
 .footer__block{
     display: flex;
     justify-content: flex-start;
@@ -234,30 +209,26 @@ footer{
     flex-direction: column;
     color: #666d89;
 }
-
 .footer__Services{
     width: auto;
     height: auto;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 60px 0px 0px 40px;
 }
-
 .Services__heading{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0;
+    padding: 0;
     font-family: "Lato-Black", sans-serif;
     font-size: 30px;
 }
 .Services__text_paragraph{
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 18px 0px 0px 0px;
     font-family: "Lato-Light", sans-serif;
     font-size: 18px;
     font-weight: bold;
     line-height: 30px;
 }
-
-
 .footer__cards{
     display: flex;
     justify-content: center;
@@ -266,17 +237,15 @@ footer{
     flex-wrap: wrap;
     width: auto;
     height: auto;
-    margin: 0 0 0px 0px;
+    margin: 0;
     padding: 0;
 }
-
 .card__heading{
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 23px 0px 0px 19px;
     font-family: "Lato-Black", sans-serif;
     font-size: 18px;
 }
-
 .card{
     position: relative;
     display: flex;
@@ -290,39 +259,32 @@ footer{
     font-family: "Lato-Regular", sans-serif;
     font-size: 12px;
 }
-
 .card__text{
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 7px 0px 0px 17px;
     font-size: 13px;
     line-height: 22px;
 }
-
 .design__card{
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 13px 0px 0px 13px;
 }
-
 .idea__card{
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 13px 0px 0px 6px;
 }
-
 .answer__card{
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 13px 0px 0px 4px;
 }
-
 .layout__card{
     margin: -7px 0px 0px 0px;
     padding: 0px 0px 0px 12px;
 }
-
 .support__card{
     margin: -7px 0px 0px 0px;
     padding: 0px 0px 0px 5px;
 }
-
 .star__card{
     margin: -7px 0px 0px 0px;
     padding: 0px 0px 0px 5px;
