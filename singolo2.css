@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1020px;
+    width: 1020px;
+    height: auto;
+    margin: -6px auto;
+    padding: 0;
+}
+.portfolio__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 1020px;
+    height: 870px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color :#2d303a;
+}
+.portfolio__line{
+    width: 100%;
+    height: 6px;
+    margin: 0;
+    padding: 0;
+    background-color: #323746;
+}
+.aboutUs__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 1020px;
+    height: 728px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;;
+    background-color: #f2f2f2;
+}
+.aboutUs__line{
+    width: 100%;
+    height: 6px;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+.portfolio__logo{
+    position: relative;
+    width: 121px;
+    height: 23px;
+}
+.portfolio__logo_text{
+    width: 121px;
+    height: 23px;
+    margin: 66px 0px 0px 39px;
+    padding: 0px 0px 0px 0px;
+    font-family: "Lato-Black", sans-serif;
+    font-size: 31px;
+    color: #666d89;
+}
+.portfolio__logo_text:hover{
+    color: white;
+    cursor:pointer
+}
+.portfolio__imgs{
+    width: auto;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    padding: 1px 0px 0px 22px;
+}
+.portfolio__text{
+    position: relative;
+    width: 682px;
+    height: 17px;
+}
+.logo__text{
+    width: 682px;
+    height: 17px;
+    margin: 102px 0px 0px 41px;
+    padding: 0;
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 17px;
+    color: #666d89;
+}
+.image{
+    width: 220px;
+    height: 187px;
+    margin: 0px 0px 0px 0px;
+    padding: 17px 0px 0px 17px;
+}
+.portfolio__btns{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    margin: 121px 0px 0px 41px;
+}
+.btn{
+    border: 1px solid #666d89;
+    border-radius: 15%;
+    background-color: #2d303a;
+    font-family: "Lato-Reguler",sans-serif;
+    font-size: 11px;
+    color: #666d89;
+    margin: 0px 10px 0px 0px;
+}
+.btn:hover{
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.btn__all{
+    width: 29px;
+    height: 22px;
+}
+.btn__web{
+    width: 78px;
+    height: 22px;
+}
+.btn__graphic{
+    width: 93px;
+    height: 22px;
+}
+.btn__artwork{
+    width: 57px;
+    height: 22px;
+}
