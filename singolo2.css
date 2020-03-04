@@ -27,16 +27,6 @@ body{
     padding: 0;
     background-color: #323746;
 }
-.aboutUs__wrapper{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    width: 1020px;
-    height: 728px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;;
-    background-color: #f2f2f2;
-}
 .aboutUs__line{
     width: 100%;
     height: 6px;
@@ -129,4 +119,105 @@ p{
 .btn__artwork{
     width: 57px;
     height: 22px;
+}
+
+.aboutUs__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 1020px;
+    height: 728px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;;
+    background-color: #f2f2f2;
+}
+.aboutUs__contacts{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 1020px;
+    height: 445px;
+    margin: 23px 0px 0px 0px;
+    padding: 21px 0px 0px 40px;;
+}
+.heading{
+    margin: 0;
+    padding: 0;
+}
+.aboutUs__heading{
+    margin: 60px 0px 0px 40px;
+    padding: 0;
+    font-family: "Lato-Black", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #666d89;
+}
+.aboutUs__text{
+    margin: 19px 0px 0px 40px;
+    padding: 0;
+}
+.aboutUs__paragraph{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato-Light", sans-serif;
+    font-size: 18px;
+    color: #666d89;
+    line-height: 29px;
+}
+.contact__socialLinks{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 23px 0px 0px -7px;
+    padding: 0px 0px 0px 0px;
+}
+.description__name{
+    margin: 9px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: "Lato-Black", sans-serif;
+    font-size: 18px;
+    color: #666d89;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 8px;
+}
+.contact__1{
+    position: relative;
+    width: 304px;
+    height: 443px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.contact__2{
+    position: relative;
+    width: 304px;
+    height: 443px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 15px;
+}
+.contact__3{
+    position: relative;
+    width: 304px;
+    height: 443px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 16px;
+}
+.description__info{
+    font-family: "Lato-Regular", sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 7px 0px 0px 0px;
+    font-size: 12px;
+    color: #666d89;
+    line-height: 22px;
+
+}
+.face{
+    width: 303px;
+    height: 303px;
 }
