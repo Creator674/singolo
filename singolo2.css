@@ -77,6 +77,11 @@ body{
     height: 187px;
     margin: 0px 0px 0px 0px;
     padding: 17px 0px 0px 17px;
+    transition: 0.2s;
+}
+.image:hover{
+    border-radius: 5% 50%;
+    cursor: crosshair;
 }
 .portfolio__btns{
     position: relative;
@@ -220,4 +225,12 @@ p{
 .face{
     width: 303px;
     height: 303px;
+    transition: 0.3s;
+}
+.face:hover{
+    border-radius: 50% 5%;
+    cursor: crosshair;
+}
+.description__name:hover{
+    color: tomato;
 }
