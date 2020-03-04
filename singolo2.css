@@ -16,8 +16,8 @@ body{
     flex-direction: column;
     width: 1020px;
     height: 870px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0;
+    padding: 0;
     background-color :#2d303a;
 }
 .portfolio__line{
@@ -43,7 +43,7 @@ body{
     width: 121px;
     height: 23px;
     margin: 66px 0px 0px 39px;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
     font-family: "Lato-Black", sans-serif;
     font-size: 31px;
     color: #666d89;
@@ -55,7 +55,7 @@ body{
 .portfolio__imgs{
     width: auto;
     height: auto;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 1px 0px 0px 22px;
 }
 .portfolio__text{
@@ -75,7 +75,7 @@ body{
 .image{
     width: 220px;
     height: 187px;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 17px 0px 0px 17px;
     transition: 0.2s;
 }
@@ -125,7 +125,6 @@ p{
     width: 57px;
     height: 22px;
 }
-
 .aboutUs__wrapper{
     display: flex;
     align-items: flex-start;
@@ -133,8 +132,8 @@ p{
     flex-direction: column;
     width: 1020px;
     height: 728px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;;
+    margin: 0;
+    padding: 0;
     background-color: #f2f2f2;
 }
 .aboutUs__contacts{
@@ -177,11 +176,11 @@ p{
     justify-content: flex-start;
     flex-direction: row;
     margin: 23px 0px 0px -7px;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
 }
 .description__name{
     margin: 9px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
     font-family: "Lato-Black", sans-serif;
     font-size: 18px;
     color: #666d89;
@@ -189,33 +188,33 @@ p{
 .icon{
     width: 32px;
     height: 32px;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 0px 0px 0px 8px;
 }
 .contact__1{
     position: relative;
     width: 304px;
     height: 443px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    margin: 0;
+    padding: 0;
 }
 .contact__2{
     position: relative;
     width: 304px;
     height: 443px;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 0px 0px 0px 15px;
 }
 .contact__3{
     position: relative;
     width: 304px;
     height: 443px;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 0px 0px 0px 16px;
 }
 .description__info{
     font-family: "Lato-Regular", sans-serif;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
     padding: 7px 0px 0px 0px;
     font-size: 12px;
     color: #666d89;
