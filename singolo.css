@@ -229,7 +229,7 @@ footer{
     width: auto;
     height: auto;
     margin: 0;
-    padding: 60px 0px 0px 40px;
+    padding: 60px 0 0 40px;
 }
 .Services__heading{
     margin: 0;
@@ -258,7 +258,7 @@ footer{
 }
 .card__heading{
     margin: 0;
-    padding: 23px 0px 0px 19px;
+    padding: 23px 0 0 19px;
     font-family: "Lato-Black", sans-serif;
     font-size: 18px;
 }
@@ -281,33 +281,33 @@ footer{
 }
 .card__text{
     margin: 0;
-    padding: 7px 0px 0px 17px;
+    padding: 7px 0 0 17px;
     font-size: 13px;
     line-height: 22px;
 }
 .design__card{
     margin: 0;
-    padding: 13px 0px 0px 13px;
+    padding: 13px 0 0 13px;
 }
 .idea__card{
     margin: 0;
-    padding: 13px 0px 0px 6px;
+    padding: 13px 0 0 6px;
 }
 .answer__card{
     margin: 0;
-    padding: 13px 0px 0px 4px;
+    padding: 13px 0 0 4px;
 }
 .layout__card{
-    margin: -7px 0px 0px 0px;
-    padding: 0px 0px 0px 12px;
+    margin: -7px 0 0 0;
+    padding: 0 0 0 12px;
 }
 .support__card{
-    margin: -7px 0px 0px 0px;
-    padding: 0px 0px 0px 5px;
+    margin: -7px 0 0 0;
+    padding: 0 0 0 5px;
 }
 .star__card{
-    margin: -7px 0px 0px 0px;
-    padding: 0px 0px 0px 5px;
+    margin: -7px 0 0 0;
+    padding: 0 0 0 5px;
 }
 .portfolio__wrapper{
     display: flex;
@@ -342,7 +342,7 @@ footer{
 .portfolio__logo_text{
     width: 121px;
     height: 23px;
-    margin: 59px 0px 0px 39px;
+    margin: 59px 0 0 39px;
     padding: 0;
     font-family: "Lato-Black", sans-serif;
     font-size: 31px;
@@ -356,7 +356,7 @@ footer{
     width: auto;
     height: auto;
     margin: 0;
-    padding: 1px 0px 0px 22px;
+    padding: 1px 0 0 22px;
 }
 .portfolio__text{
     position: relative;
@@ -366,7 +366,7 @@ footer{
 .logo__text{
     width: 682px;
     height: 17px;
-    margin: 95px 0px 0px 41px;
+    margin: 95px 0 0 41px;
     padding: 0;
     font-family: "Lato-Regular", sans-serif;
     font-size: 17px;
@@ -376,7 +376,7 @@ footer{
     width: 220px;
     height: 187px;
     margin: 0;
-    padding: 17px 0px 0px 17px;
+    padding: 17px 0 0 17px;
     transition: 0.2s;
 }
 .image:hover{
@@ -389,7 +389,7 @@ footer{
     align-items: flex-start;
     justify-content: center;
     flex-direction: row;
-    margin: 114px 0px 0px 41px;
+    margin: 114px 0 0 41px;
 }
 .btn{
     border: 1px solid #666d89;
@@ -398,7 +398,7 @@ footer{
     font-family: "Lato-Reguler",sans-serif;
     font-size: 11px;
     color: #666d89;
-    margin: 0px 10px 0px 0px;
+    margin: 0 10px 0 0;
 }
 .btn:hover{
     border: 1px solid white;
@@ -443,15 +443,15 @@ p{
     flex-direction: row;
     width: 1020px;
     height: 445px;
-    margin: 23px 0px 0px 0px;
-    padding: 21px 0px 0px 40px;;
+    margin: 23px 0 0 0;
+    padding: 21px 0 0 40px;;
 }
 .heading{
     margin: 0;
     padding: 0;
 }
 .aboutUs__heading{
-    margin: 60px 0px 0px 40px;
+    margin: 60px 0 0 40px;
     padding: 0;
     font-family: "Lato-Black", sans-serif;
     font-size: 15px;
@@ -459,7 +459,7 @@ p{
     color: #666d89;
 }
 .aboutUs__text{
-    margin: 19px 0px 0px 40px;
+    margin: 19px 0 0 40px;
     padding: 0;
 }
 .aboutUs__paragraph{
@@ -475,11 +475,11 @@ p{
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    margin: 23px 0px 0px -7px;
+    margin: 23px 0 0 -7px;
     padding: 0;
 }
 .description__name{
-    margin: 9px 0px 0px 0px;
+    margin: 9px 0 0 0;
     padding: 0;
     font-family: "Lato-Black", sans-serif;
     font-size: 18px;
@@ -489,7 +489,7 @@ p{
     width: 32px;
     height: 32px;
     margin: 0;
-    padding: 0px 0px 0px 8px;
+    padding: 0 0 0 8px;
 }
 .contact__1{
     position: relative;
@@ -503,19 +503,19 @@ p{
     width: 304px;
     height: 443px;
     margin: 0;
-    padding: 0px 0px 0px 15px;
+    padding: 0 0 0 15px;
 }
 .contact__3{
     position: relative;
     width: 304px;
     height: 443px;
     margin: 0;
-    padding: 0px 0px 0px 16px;
+    padding: 0 0 0 16px;
 }
 .description__info{
     font-family: "Lato-Regular", sans-serif;
     margin: 0;
-    padding: 7px 0px 0px 0px;
+    padding: 7px 0 0 0;
     font-size: 12px;
     color: #666d89;
     line-height: 22px;
@@ -533,32 +533,19 @@ p{
 .description__name:hover{
     color: tomato;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* last chapter */
 .feedback__block{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    margin: 40px 0px 0px 40px;
+    margin: 40px 0 0 40px;
 }
 .feedback__form{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0px 0px 0px 0px;
+    margin: 0;
 }
 .feedback__wrapper{
     display: flex;
@@ -589,7 +576,7 @@ p{
     position: relative;
     width: 940px;
     height: 102px;
-    margin: 60px 0px 0px 39px;
+    margin: 60px 0 0 39px;
     padding: 0;
 }
 .feedback__text_heading{
@@ -606,7 +593,7 @@ p{
     position: relative;
     width: 940px;
     height: 50px;
-    margin: 24px 0px 0px 1px;
+    margin: 24px 0 0 1px;
     padding: 0;
     font-family: "Lato-Light", sans-serif;
     font-size: 20px;
@@ -635,22 +622,21 @@ a{
 }
 .textarea_thick{
     height: 189px;
-    margin: 6px 0px 0px 0px;
-    padding: 12px 0px 0px 0px;
+    margin: 6px 0 0 0;
+    padding: 12px 0 0 0;
 }
 .feedback__btn_submit{
     width: 85px;
     height: 30px;
-    margin: 0;
+    margin: 20px 0 0;
     padding: 0;
-    background-color: #d6564f;
     border: 1px solid black;
     border-radius: 10%;
     font-family: "Lato-Regular", sans-serif;
     color: #f0d8d9;
     font-size: 18px;
+    background-color: #d6564f;
     transition: 0.1s;
-    margin: 20px 0 0;
 }
 .feedback__btn_submit:hover{
     border: 3px solid black;
@@ -712,7 +698,7 @@ a{
     flex-direction: row;
     width: 200px;
     height: 30px;
-    margin: -9px 0px 0px -2px;
+    margin: -9px 0 0 -2px;
     font-family: "Lato-Regular", sans-serif;
     font-size: 12px;
     color: #f0d8d9;
@@ -724,14 +710,14 @@ a{
     flex-direction: row;
     width: 200px;
     height: 30px;
-    margin: -7px 0px 0px -2px;
+    margin: -7px 0 0 -2px;
     font-family: "Lato-Regular", sans-serif;
     font-size: 12px;
     color: #f0d8d9;
 }
 .feedback__info_text{
-    margin: 14px 0px 0px 22px;
-    padding: 0px 0px 0px 0px;
+    margin: 14px 0 0 22px;
+    padding: 0;
 }
 .info__text_heading{
     font-family: "Lato-Black", sans-serif;
@@ -740,7 +726,7 @@ a{
 }
 .info__text_paragraph{
     width: 305px;
-    margin: 8px 0px 0px 0px;
+    margin: 8px 0 0 0;
     font-family: "Lato-Regular", sans-serif;
     font-size: 12px;
     line-height: 22px;
@@ -750,16 +736,16 @@ a{
     padding-top: 8px;
 }
 .info__company{
-    margin: 18px 0px 0px 24px;
+    margin: 18px 0 0 24px;
 }
 .company__adress_text{
-    margin: -2px 0px 0px 13px;
+    margin: -2px 0 0 13px;
 }
 .company__number_text{
-    margin: -1px 0px 0px 10px;
+    margin: -1px 0 0 10px;
 }
 .company__mail_text{
-    margin: -3px 0px 0px 9px;
+    margin: -3px 0 0 9px;
 }
 a:hover{
     color: violet;
@@ -771,16 +757,16 @@ a:hover{
     flex-direction: row;
 }
 .copyright__text{
-    margin: 0px 0px 0px 40px;
+    margin: 0 0 0 40px;
     font-family: "Lato-Regular",sans-serif;
     font-size: 12px;
     color: #666d89;
 }
 .copyright__icons{
-    margin: 5px 36px 0px 0px;
+    margin: 5px 36px 0 0;
 }
 .footer__icon{
-    margin: 0px 4px 0px 0px;
+    margin: 0 4px 0 0;
 }
 .footer__icon:hover{
     background-color: #f06c64;
