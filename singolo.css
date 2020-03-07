@@ -601,7 +601,6 @@ p{
     font-family: "Lato-Black", sans-serif;
     font-size: 15px;
     color: #f0d8d9;
-    background-color: red;
 }
 .feedback__text_paragraph{
     position: relative;
@@ -614,7 +613,6 @@ p{
     color: #f0d8d9;
     letter-spacing: -1px;
     line-height: 29px;
-    background-color: royalblue;
 }
 h1, p{
     margin: 0;
@@ -765,4 +763,26 @@ a{
 }
 a:hover{
     color: violet;
+}
+.copyright__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.copyright__text{
+    margin: 0px 0px 0px 40px;
+    font-family: "Lato-Regular",sans-serif;
+    font-size: 12px;
+    color: #666d89;
+}
+.copyright__icons{
+    margin: 5px 36px 0px 0px;
+}
+.footer__icon{
+    margin: 0px 4px 0px 0px;
+}
+.footer__icon:hover{
+    background-color: #f06c64;
+    border-radius: 50%;
 }
