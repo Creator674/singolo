@@ -229,7 +229,7 @@ footer{
     width: auto;
     height: auto;
     margin: 0;
-    padding: 60px 0px 0px 40px;
+    padding: 60px 0 0 40px;
 }
 .Services__heading{
     margin: 0;
@@ -239,7 +239,7 @@ footer{
 }
 .Services__text_paragraph{
     margin: 0;
-    padding: 18px 0px 0px 0px;
+    padding: 18px 0 0 0;
     font-family: "Lato-Light", sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -258,7 +258,7 @@ footer{
 }
 .card__heading{
     margin: 0;
-    padding: 23px 0px 0px 19px;
+    padding: 23px 0 0 19px;
     font-family: "Lato-Black", sans-serif;
     font-size: 18px;
 }
@@ -281,31 +281,31 @@ footer{
 }
 .card__text{
     margin: 0;
-    padding: 7px 0px 0px 17px;
+    padding: 7px 0 0 17px;
     font-size: 13px;
     line-height: 22px;
 }
 .design__card{
     margin: 0;
-    padding: 13px 0px 0px 13px;
+    padding: 13px 0 0 13px;
 }
 .idea__card{
     margin: 0;
-    padding: 13px 0px 0px 6px;
+    padding: 13px 0 0 6px;
 }
 .answer__card{
     margin: 0;
-    padding: 13px 0px 0px 4px;
+    padding: 13px 0 0 4px;
 }
 .layout__card{
-    margin: -7px 0px 0px 0px;
-    padding: 0px 0px 0px 12px;
+    margin: -7px 0 0 0;
+    padding: 0 0 0 12px;
 }
 .support__card{
-    margin: -7px 0px 0px 0px;
-    padding: 0px 0px 0px 5px;
+    margin: -7px 0 0 0;
+    padding: 0 0 0 5px;
 }
 .star__card{
-    margin: -7px 0px 0px 0px;
-    padding: 0px 0px 0px 5px;
+    margin: -7px 0 0 0;
+    padding: 0 0 0 5px;
 }
