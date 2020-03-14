@@ -42,7 +42,7 @@ body{
 .portfolio__logo_text{
     width: 121px;
     height: 23px;
-    margin: 66px 0px 0px 39px;
+    margin: 66px 0 0 39px;
     padding: 0;
     font-family: "Lato-Black", sans-serif;
     font-size: 31px;
@@ -56,7 +56,7 @@ body{
     width: auto;
     height: auto;
     margin: 0;
-    padding: 1px 0px 0px 22px;
+    padding: 1px 0 0 22px;
 }
 .portfolio__text{
     position: relative;
@@ -66,7 +66,7 @@ body{
 .logo__text{
     width: 682px;
     height: 17px;
-    margin: 102px 0px 0px 41px;
+    margin: 102px 0 0 41px;
     padding: 0;
     font-family: "Lato-Regular", sans-serif;
     font-size: 17px;
@@ -76,7 +76,7 @@ body{
     width: 220px;
     height: 187px;
     margin: 0;
-    padding: 17px 0px 0px 17px;
+    padding: 17px 0 0 17px;
     transition: 0.2s;
 }
 .image:hover{
@@ -89,7 +89,7 @@ body{
     align-items: flex-start;
     justify-content: center;
     flex-direction: row;
-    margin: 121px 0px 0px 41px;
+    margin: 121px 0 0 41px;
 }
 .btn{
     border: 1px solid #666d89;
@@ -98,7 +98,7 @@ body{
     font-family: "Lato-Reguler",sans-serif;
     font-size: 11px;
     color: #666d89;
-    margin: 0px 10px 0px 0px;
+    margin: 0 10px 0 0;
 }
 .btn:hover{
     border: 1px solid white;
@@ -143,15 +143,15 @@ p{
     flex-direction: row;
     width: 1020px;
     height: 445px;
-    margin: 23px 0px 0px 0px;
-    padding: 21px 0px 0px 40px;;
+    margin: 23px 0 0 0;
+    padding: 21px 0 0 40;
 }
 .heading{
     margin: 0;
     padding: 0;
 }
 .aboutUs__heading{
-    margin: 60px 0px 0px 40px;
+    margin: 60px 0 0 40px;
     padding: 0;
     font-family: "Lato-Black", sans-serif;
     font-size: 15px;
@@ -159,7 +159,7 @@ p{
     color: #666d89;
 }
 .aboutUs__text{
-    margin: 19px 0px 0px 40px;
+    margin: 19px 0 0 40px;
     padding: 0;
 }
 .aboutUs__paragraph{
@@ -175,11 +175,11 @@ p{
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    margin: 23px 0px 0px -7px;
+    margin: 23px 0 0 -7px;
     padding: 0;
 }
 .description__name{
-    margin: 9px 0px 0px 0px;
+    margin: 9px 0 0 0;
     padding: 0;
     font-family: "Lato-Black", sans-serif;
     font-size: 18px;
@@ -189,7 +189,7 @@ p{
     width: 32px;
     height: 32px;
     margin: 0;
-    padding: 0px 0px 0px 8px;
+    padding: 0 0 0 8px;
 }
 .contact__1{
     position: relative;
@@ -203,19 +203,19 @@ p{
     width: 304px;
     height: 443px;
     margin: 0;
-    padding: 0px 0px 0px 15px;
+    padding: 0 0 0 15px;
 }
 .contact__3{
     position: relative;
     width: 304px;
     height: 443px;
     margin: 0;
-    padding: 0px 0px 0px 16px;
+    padding: 0 0 0 16px;
 }
 .description__info{
     font-family: "Lato-Regular", sans-serif;
     margin: 0;
-    padding: 7px 0px 0px 0px;
+    padding: 7px 0 0 0;
     font-size: 12px;
     color: #666d89;
     line-height: 22px;
