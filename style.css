@@ -22,6 +22,21 @@ header{
     height: auto;
     background-color: black;
 }
+a:hover{
+    color: violet;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav__wrapper{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 1020px;
+    height: 95px;
+    z-index: 2;
+}
 .header__block{
     width: 1020px;
     height: 89px;
@@ -35,13 +50,13 @@ header{
 main{
     width: 1020px;
     height: auto;
-    background-color: red;
 }
 .main__block{
     display: flex;
     flex-direction: row;
     width: 1020px;
     height: 594px;
+    margin-top: 95px;
     background-color: #f06c64;
 }
 .main__leftArrow{
@@ -197,8 +212,8 @@ footer{
     color: #f06c64;
 }
 .navMenu__home_red:hover{
-    color: #8f1d17;
-    cursor: cell;
+    color: violet;
+    cursor: pointer;
 }
 .navMenu__list{
     display: flex;
@@ -210,8 +225,8 @@ footer{
     padding: 0;
 }
 .list__name:hover{
-    color: #8f1d17;
-    cursor: cell;
+    color: violet;
+    cursor: pointer;
 }
 .footer__block{
     display: flex;
@@ -619,10 +634,6 @@ h1, p{
     margin: 0;
     padding: 0;
 }
-a{
-    text-decoration: none;
-    color: #f0d8d9;
-}
 .textarea{
     width: 617px;
     height: 35px;
@@ -765,9 +776,6 @@ a{
 }
 .company__mail_text{
     margin: -3px 0 0 9px;
-}
-a:hover{
-    color: violet;
 }
 .copyright__wrapper{
     display: flex;

@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="singoloFonts.css">
-    <link rel="stylesheet" href="singolo.css">
+    <link rel="stylesheet" href="style.css">
     <title>Creator674</title>
 </head>
 <body>
     <header>
-        <div class="header__block">
-            <div class="logo__wrapper">
-                <h1 class="logo__name_white">Singolo</h1>
-            </div>
-            <div class="navMenu__wrapper">
-                    <p class="navMenu__home_red">Home</p>
+        <div class="nav__wrapper">
+            <div class="header__block">
+                <div class="logo__wrapper">
+                    <h1 class="logo__name_white">Singolo</h1>
+                </div>
+                <div class="navMenu__wrapper">
+                    <p class="navMenu__home_red"><a href="#home">Home</a></p>
                     <ul class="navMenu__list">
-                        <li class="list__name">Services</li>
-                        <li class="list__name">Portfolio</li>
-                        <li class="list__name">About</li>
-                        <li class="list__name">Contact</li>
+                        <li class="list__name"><a href="#services">Services</a></li>
+                        <li class="list__name"><a href="#portfolio">Portfolio</a></li>
+                        <li class="list__name"><a href="#about">About</a></li>
+                        <li class="list__name"><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
+            <div class="header__straightLine"></div>
         </div>
     </header>
-    <div class="header__straightLine"></div>
     <main>
+        <p><a name="home"></a></p>
         <div class="main__block">
             <div class="main__leftArrow"></div>
             <div class="main__iphoneVertical">
@@ -42,6 +44,7 @@
         <div class="main__straightLine"></div>
     </main>
     <footer>
+        <p><a name="services"></a></p>
         <div class="footer__block">
             <div class="footer__Services">
                 <div>
@@ -109,6 +112,7 @@
             </div>
         </div>
         <div class="footer__straightLine"></div>
+        <p><a name="portfolio"></a></p>
     </footer>
     <div class="portfolio__wrapper">
         <div class="portfolio__logo">
@@ -153,6 +157,7 @@
         </div>
     </div>
     <div class="portfolio__line"></div>
+    <p><a name="about"></a></p>
     <div class="aboutUs__wrapper">
         <div class="aboutUs__heading">
             <h1 class="heading">About Us</h1>
@@ -210,6 +215,7 @@
         </div>
     </div>
     <div class="aboutUs__line"></div>
+    <p><a name="contact"></a></p>
     <div class="feedback__wrapper">
         <div class="feedback__text">
             <div class="feedback__text_heading">
@@ -268,4 +274,5 @@
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
