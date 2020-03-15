@@ -57,3 +57,45 @@ function picturesStyle(){
     }
 }
 picturesStyle();
+
+
+let modal = document.querySelector('.modal__wrapper');
+let btn = document.querySelector(".feedback__btn_submit");
+let span = document.getElementsByClassName("close")[0];
+let parent = document.querySelector('.modal__body');
+span.onclick = function() {
+    modal.style.display = "none";
+    let element = document.querySelector('.modal__body');
+    while (element.firstChild) {
+        element.removeChild(element.firstChild);
+    }
+    let p = document.createElement("p");
+    let p2 = document.createElement("p");
+    p.className = "modal__topic";
+    p2.className = "modal__description";
+    element.appendChild(p);
+    element.appendChild(p2);
+}
+
+btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    let inpObj = document.querySelector(".textarea");
+    let inpObj2 = document.querySelector(".textEmail");
+    if (inpObj.checkValidity() && inpObj2.checkValidity()) {
+        let p = document.querySelector('.modal__topic');
+        let p2 = document.querySelector('.modal__description');
+        let value = document.querySelector(".textareaTopic").value;
+        let value2 = document.querySelector(".textarea_thick").value;
+        let text = document.createTextNode(`Тема: ` + value);
+        let text2 = document.createTextNode(`Описание: ` + value2);
+        if(value == ""){
+            text = document.createTextNode("Без темы");
+        }
+        if(value2 == ""){
+            text2 = document.createTextNode("Без описания");
+        }
+        p.appendChild(text);
+        p2.appendChild(text2);
+        modal.style.display = "block";
+    }
+})

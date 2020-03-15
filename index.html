@@ -229,10 +229,10 @@
             <div class="feedback__form_wrapper">
                 <form class="feedback__form">
                     <p><input class="textarea" placeholder="Name (Required)" required></p>
-                    <p><input type="email" class="textarea" placeholder="Email (Required)" required></p>
-                    <p><input class="textarea" placeholder="Subject"></p>
-                    <p class="textarea_placegolder"><textarea class="textarea textarea_thick" placeholder="Describe your project in detail..."></textarea></p>
-                    <p><input class="feedback__btn_submit" type="submit" value="Submit"></p>
+                    <p><input type="email" class="textarea textEmail" placeholder="Email (Required)" required></p>
+                    <p><input class="textareaTopic textarea" placeholder="Subject"></p>
+                    <p class="textarea_placeholder"><textarea class="textarea textarea_thick" placeholder="Describe your project in detail..."></textarea></p>
+                    <p><input class="feedback__btn_submit" type="submit" value="Submit" ></p>
                 </form>
             </div>
             <div class="feedback__info">
@@ -273,6 +273,18 @@
             <img src="assets/images/linkedInIcon.png" alt="smth wrong" class="footer__icon">
         </div>
     </div>
+    <div class="modal__wrapper">
+        <div class="modal">
+          <div class="modal__header">
+            <h2>Письмо отправлено</h2>
+          </div>
+          <div class="modal__body">
+              <p class="modal__topic"></p>
+              <p class="modal__description"></p>
+          </div>
+          <button class="close">OK</button>
+        </div>
+      </div>
 </body>
 <script src="script.js"></script>
 </html>
