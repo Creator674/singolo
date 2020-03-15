@@ -11,6 +11,16 @@ for (let i = 0; i < buttons.length; i++) {
       this.classList.add('btn_pressed');
     })
 }
+let navButtons =  document.querySelectorAll('.navMenu__wrapper a');
+for (let i = 0; i < navButtons.length; i++) {
+    navButtons[i].onclick = changePortfolioPictures;
+    navButtons[i].addEventListener('click', function() {
+      for (let i = 0; i < navButtons.length; i++) {
+        navButtons[i].classList.remove('active');
+      }
+      this.classList.add('active');
+    })
+}
 function changePortfolioPictures(){
     portfoliImg = document.querySelectorAll('.portfolio__imgs img');
     pictures = document.querySelectorAll('.image');
