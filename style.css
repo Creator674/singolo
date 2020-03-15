@@ -94,7 +94,6 @@ main{
     z-index: 1;
 }
 .iphoneVertical__screen{
-    position: relative;
     margin: -480px 0 0 38px;
     width: 240px;
     height: 483px;
@@ -442,13 +441,14 @@ footer{
 .image{
     width: 220px;
     height: 187px;
-    margin: 0;
-    padding: 17px 0 0 17px;
-    transition: 0.2s;
+    margin: 17px 0 0 17px;
+    padding: 0;
 }
-.image:hover{
-    border-radius: 5% 50%;
-    cursor: crosshair;
+.currentImage{
+    width: 220px;
+    height: 187px;
+    margin: 12px -5px -5px 12px;
+    border: 5px solid red;
 }
 .portfolio__btns{
     position: relative;
@@ -462,7 +462,7 @@ footer{
     border: 1px solid #666d89;
     border-radius: 15%;
     background-color: #2d303a;
-    font-family: "Lato-Reguler",sans-serif;
+    font-family: "Lato-Regular",sans-serif;
     font-size: 11px;
     color: #666d89;
     margin: 0 10px 0 0;
@@ -476,6 +476,11 @@ footer{
 p{
     margin: 0;
     padding: 0;
+}
+.btn_pressed{
+    border: 1px solid #be640f;
+    background-color: black;
+    color: #be640f;
 }
 .btn__all{
     width: 29px;
