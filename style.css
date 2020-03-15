@@ -35,7 +35,7 @@ a{
     flex-direction: column;
     width: 1020px;
     height: 95px;
-    z-index: 2;
+    z-index: 3;
 }
 .header__block{
     width: 1020px;
@@ -68,6 +68,12 @@ main{
     background-position: center;
     background-repeat: no-repeat;
 }
+.iphone__wrapper{
+    width:1020px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
 .main__leftArrow:hover{
     transform: scale(1.5, 1.5);
     cursor: pointer;
@@ -79,7 +85,7 @@ main{
 }
 .iphoneVertical__body{
     position: relative;
-    margin: 40px 0 0 34px;
+    margin: 40px 0 0 38px;
     width: 240px;
     height: 483px;
     background-image: url("./assets/images/iphoneVertical.png");
@@ -87,9 +93,29 @@ main{
     background-repeat: no-repeat;
     z-index: 1;
 }
+.iphoneVertical__screen{
+    position: relative;
+    margin: -480px 0 0 38px;
+    width: 240px;
+    height: 483px;
+    background-image: url("./assets/images/yellowIphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.iphoneVertical__button{
+    position: relative;
+    margin: -65px 0 0 137px;
+    width: 43px;
+    height: 43px;
+    background-image: url("./assets/images/buttonIphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
 .iphoneVertical__shadow{
     position: relative;
-    margin: -480px 0 0 17px;
+    margin: -460px 0 0 21px;
     width: 300px;
     height: 500px;
     background-image: url("./assets/images/shadowVertical.png");
@@ -110,9 +136,28 @@ main{
     background-repeat: no-repeat;
     z-index: 1;
 }
+.iphoneHorizontal__screen{
+    margin: -202px 0 0 101px;
+    width: 335px;
+    height: 190px;
+    background-image: url("./assets/images/blueIphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.iphoneHorizontal__button{
+    position: relative;
+    margin: -117px 0 0 51px;
+    width: 43px;
+    height: 43px;
+    background-image: url("./assets/images/buttonIphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
 .iphoneHorizontal__shadow{
     position: relative;
-    margin: -215px 0 0 44px;
+    margin: -130px 0 0 44px;
     width: 483px;
     height: 240px;
     background-image: url("./assets/images/shadowHorizontal.png");
@@ -121,7 +166,7 @@ main{
 }
 .main__rightArrow{
     position: relative;
-    margin: 279px 0 0 49px;
+    margin: 279px 35px 0 21px;
     width: 30px;
     height: 30px;
     background-image: url("./assets/images/arrowRight.png");
