@@ -20,14 +20,7 @@ function changePortfolioPictures(){
     }
     shuffle(srcs);
     draw();
-    for (let i = 0; i < pictures.length; i++) {
-        pictures[i].addEventListener('click', function() {
-          for (let i = 0; i < pictures.length; i++) {
-            pictures[i].classList.remove('currentImage');
-          }
-          this.classList.add('currentImage');
-        })
-    }
+    picturesStyle();
 }
 function draw(){
     for(let i = 0; i < portfoliImg.length; i++){
@@ -53,3 +46,14 @@ function shuffle(array) {
     return array;
 }
 
+function picturesStyle(){
+    for (let i = 0; i < pictures.length; i++) {
+        pictures[i].addEventListener('click', function() {
+          for (let i = 0; i < pictures.length; i++) {
+            pictures[i].classList.remove('currentImage');
+          }
+          this.classList.add('currentImage');
+        })
+    }
+}
+picturesStyle();
