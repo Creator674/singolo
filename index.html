@@ -9,39 +9,48 @@
 </head>
 <body>
     <header>
-        <div class="header__block">
-            <div class="logo__wrapper">
-                <h1 class="logo__name_white">Singolo</h1>
-            </div>
-            <div class="navMenu__wrapper">
-                    <p class="navMenu__home_red">Home</p>
+        <div class="nav__wrapper">
+            <div class="header__block">
+                <div class="logo__wrapper">
+                    <h1 class="logo__name_white">Singolo</h1>
+                </div>
+                <div class="navMenu__wrapper">
+                    <p class="navMenu__home_red"><a href="#home">Home</a></p>
                     <ul class="navMenu__list">
-                        <li class="list__name">Services</li>
-                        <li class="list__name">Portfolio</li>
-                        <li class="list__name">About</li>
-                        <li class="list__name">Contact</li>
+                        <li class="list__name"><a href="#services">Services</a></li>
+                        <li class="list__name"><a href="#portfolio">Portfolio</a></li>
+                        <li class="list__name"><a href="#about">About</a></li>
+                        <li class="list__name"><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
+            <div class="header__straightLine"></div>
         </div>
     </header>
-    <div class="header__straightLine"></div>
     <main>
+        <p><a name="home"></a></p>
         <div class="main__block">
             <div class="main__leftArrow"></div>
-            <div class="main__iphoneVertical">
-                <div class="iphoneVertical__body"></div>
-                <div class="iphoneVertical__shadow"></div>
-            </div>
-            <div class="main__iphoneHorizontal">
-                <div class="iphoneHorizontal__body"></div>
-                <div class="iphoneHorizontal__shadow"></div>
+            <div class="iphone__wrapper">
+                <div class="main__iphoneVertical">
+                    <div class="iphoneVertical__body"></div>
+                    <div class="iphoneVertical__button"></div>
+                    <div class="iphoneVertical__shadow"></div>
+                    <div class="iphoneVertical__screen"></div>
+                </div>
+                <div class="main__iphoneHorizontal">
+                    <div class="iphoneHorizontal__body"></div>
+                    <div class="iphoneHorizontal__button"></div>
+                    <div class="iphoneHorizontal__shadow"></div>
+                    <div class="iphoneHorizontal__screen"></div>
+                </div>
             </div>
             <div class="main__rightArrow"></div>
         </div>
         <div class="main__straightLine"></div>
     </main>
     <footer>
+        <p><a name="services"></a></p>
         <div class="footer__block">
             <div class="footer__Services">
                 <div>
@@ -109,6 +118,7 @@
             </div>
         </div>
         <div class="footer__straightLine"></div>
+        <p><a name="portfolio"></a></p>
     </footer>
     <div class="portfolio__wrapper">
         <div class="portfolio__logo">
@@ -118,41 +128,36 @@
             <p class="logo__text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
         </div>
         <div class="portfolio__btns">
-            <button class="btn__all btn">
+            <button class="btn btn__all">
                 <p>All</p>
             </button>
-            <button class="btn__web btn">
+            <button class="btn btn__web">
                 <p>Web Design</p>
             </button>
-            <button class="btn__graphic btn">
+            <button class="btn btn__graphic">
                 <p>Graphic Design</p>
             </button>
-            <button class="btn__artwork btn">
+            <button class="btn btn__artwork">
                 <p>Artwork</p>
             </button>
         </div>
         <div class="portfolio__imgs">
-            <div class="imgs__row_1">
                 <img src="assets\images\ship.png" alt="smth wrong" class="image">
                 <img src="assets\images\girl.png" alt="smth wrong" class="image">
                 <img src="assets\images\city.png" alt="smth wrong" class="image">
                 <img src="assets\images\robot.png" alt="smth wrong" class="image">
-            </div>
-            <div class="imgs__row_2">
                 <img src="assets\images\rabbit.png" alt="smth wrong" class="image">
                 <img src="assets\images\cubes.png" alt="smth wrong" class="image">
                 <img src="assets\images\space.png" alt="smth wrong" class="image">
                 <img src="assets\images\bird.png" alt="smth wrong" class="image">
-            </div>
-            <div class="imgs__row_3">
                 <img src="assets\images\monster.png" alt="smth wrong" class="image">
                 <img src="assets\images\lyrics.png" alt="smth wrong" class="image">
                 <img src="assets\images\yeti.png" alt="smth wrong" class="image">
                 <img src="assets\images\bench.png" alt="smth wrong" class="image">
-            </div>
         </div>
     </div>
     <div class="portfolio__line"></div>
+    <p><a name="about"></a></p>
     <div class="aboutUs__wrapper">
         <div class="aboutUs__heading">
             <h1 class="heading">About Us</h1>
@@ -210,6 +215,7 @@
         </div>
     </div>
     <div class="aboutUs__line"></div>
+    <p><a name="contact"></a></p>
     <div class="feedback__wrapper">
         <div class="feedback__text">
             <div class="feedback__text_heading">
@@ -223,10 +229,10 @@
             <div class="feedback__form_wrapper">
                 <form class="feedback__form">
                     <p><input class="textarea" placeholder="Name (Required)" required></p>
-                    <p><input type="email" class="textarea" placeholder="Email (Required)" required></p>
-                    <p><input class="textarea" placeholder="Subject"></p>
-                    <p class="textarea_placegolder"><textarea class="textarea textarea_thick" placeholder="Describe your project in detail..."></textarea></p>
-                    <p><input class="feedback__btn_submit" type="submit" value="Submit"></p>
+                    <p><input type="email" class="textarea textEmail" placeholder="Email (Required)" required></p>
+                    <p><input class="textareaTopic textarea" placeholder="Subject"></p>
+                    <p class="textarea_placeholder"><textarea class="textarea textarea_thick" placeholder="Describe your project in detail..."></textarea></p>
+                    <p><input class="feedback__btn_submit" type="submit" value="Submit" ></p>
                 </form>
             </div>
             <div class="feedback__info">
@@ -267,5 +273,18 @@
             <img src="assets/images/linkedInIcon.png" alt="smth wrong" class="footer__icon">
         </div>
     </div>
+    <div class="modal__wrapper">
+        <div class="modal">
+          <div class="modal__header">
+            <h2>Письмо отправлено</h2>
+          </div>
+          <div class="modal__body">
+              <p class="modal__topic"></p>
+              <p class="modal__description"></p>
+          </div>
+          <button class="close">OK</button>
+        </div>
+      </div>
 </body>
+<script src="script.js"></script>
 </html>

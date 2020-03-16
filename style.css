@@ -22,6 +22,21 @@ header{
     height: auto;
     background-color: black;
 }
+a:hover{
+    color: violet;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav__wrapper{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 1020px;
+    height: 95px;
+    z-index: 3;
+}
 .header__block{
     width: 1020px;
     height: 89px;
@@ -35,28 +50,32 @@ header{
 main{
     width: 1020px;
     height: auto;
-    background-color: red;
 }
 .main__block{
     display: flex;
     flex-direction: row;
     width: 1020px;
     height: 594px;
+    margin-top: 95px;
     background-color: #f06c64;
 }
 .main__leftArrow{
     position: relative;
-    margin: 279px 0px 0px 35px;
+    margin: 279px 0px 285px 35px;
     width: 30px;
     height: 30px;
     background-image: url("./assets/images/arrowLeft.png");
     background-position: center;
     background-repeat: no-repeat;
 }
+.iphone__wrapper{
+    width:1020px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
 .main__leftArrow:hover{
-    transform: scale(1.5, 1.5);
     cursor: pointer;
-    transition: 0.4s;
 }
 .main__iphoneVertical{
     width: auto;
@@ -64,17 +83,37 @@ main{
 }
 .iphoneVertical__body{
     position: relative;
-    margin: 40px 0 0 34px;
+    margin: 40px 0 0 38px;
     width: 240px;
     height: 483px;
-    background-image: url("./assets/images/iphoneVertical.png");
+    background-image: url("./assets/images/corpVertical.png");
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
 }
+.iphoneVertical__screen{
+    position: relative;
+    margin: -429.2px 0px 68px 64px;
+    width: 190px;
+    height: 340px;
+    background-image: url("./assets/images/yellowIphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.iphoneVertical__button{
+    position: relative;
+    margin: -65px 0 0 137px;
+    width: 43px;
+    height: 43px;
+    background-image: url("./assets/images/buttonIphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
 .iphoneVertical__shadow{
     position: relative;
-    margin: -480px 0 0 17px;
+    margin: -457px 0 0 20px;
     width: 300px;
     height: 500px;
     background-image: url("./assets/images/shadowVertical.png");
@@ -87,17 +126,37 @@ main{
 }
 .iphoneHorizontal__body{
     position: relative;
-    margin: 173px 0px 0px 43px;
-    width: 458px;
-    height: 216px;
-    background-image: url("./assets/images/iphoneHorizontal.png");
+    margin: 171px 0px 0px 32px;
+    width: 470px;
+    height: 217px;
+    background-image: url("./assets/images/corpHorizontal.png");
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
 }
+.iphoneHorizontal__screen{
+    position: relative;
+    margin: -226px 0 0 102.5px;
+    width: 336px;
+    height: 190px;
+    background-image: url("./assets/images/blueIphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.iphoneHorizontal__button{
+    position: relative;
+    margin: -127px 0 0 51px;
+    width: 43px;
+    height: 43px;
+    background-image: url("./assets/images/buttonIphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
 .iphoneHorizontal__shadow{
     position: relative;
-    margin: -215px 0 0 44px;
+    margin: -130px 0 0 44px;
     width: 483px;
     height: 240px;
     background-image: url("./assets/images/shadowHorizontal.png");
@@ -106,7 +165,7 @@ main{
 }
 .main__rightArrow{
     position: relative;
-    margin: 279px 0 0 49px;
+    margin: 279px 35px 285px 21px;
     width: 30px;
     height: 30px;
     background-image: url("./assets/images/arrowRight.png");
@@ -114,9 +173,7 @@ main{
     background-repeat: no-repeat;
 }
 .main__rightArrow:hover{
-    transform: scale(1.5, 1.5);
     cursor: pointer;
-    transition: 0.4s;
 }
 .main__straightLine{
     width: 1020px;
@@ -197,8 +254,8 @@ footer{
     color: #f06c64;
 }
 .navMenu__home_red:hover{
-    color: #8f1d17;
-    cursor: cell;
+    color: violet;
+    cursor: pointer;
 }
 .navMenu__list{
     display: flex;
@@ -210,8 +267,8 @@ footer{
     padding: 0;
 }
 .list__name:hover{
-    color: #8f1d17;
-    cursor: cell;
+    color: violet;
+    cursor: pointer;
 }
 .footer__block{
     display: flex;
@@ -382,13 +439,14 @@ footer{
 .image{
     width: 220px;
     height: 187px;
-    margin: 0;
-    padding: 17px 0 0 17px;
-    transition: 0.2s;
+    margin: 17px 0 0 17px;
+    padding: 0;
 }
-.image:hover{
-    border-radius: 5% 50%;
-    cursor: crosshair;
+.currentImage{
+    width: 220px;
+    height: 187px;
+    margin: 12px -5px -5px 12px;
+    border: 5px solid #F06C64;
 }
 .portfolio__btns{
     position: relative;
@@ -402,7 +460,7 @@ footer{
     border: 1px solid #666d89;
     border-radius: 15%;
     background-color: #2d303a;
-    font-family: "Lato-Reguler",sans-serif;
+    font-family: "Lato-Regular",sans-serif;
     font-size: 11px;
     color: #666d89;
     margin: 0 10px 0 0;
@@ -416,6 +474,11 @@ footer{
 p{
     margin: 0;
     padding: 0;
+}
+.btn_pressed{
+    border: 1px solid #be640f;
+    background-color: black;
+    color: #be640f;
 }
 .btn__all{
     width: 29px;
@@ -619,10 +682,6 @@ h1, p{
     margin: 0;
     padding: 0;
 }
-a{
-    text-decoration: none;
-    color: #f0d8d9;
-}
 .textarea{
     width: 617px;
     height: 35px;
@@ -632,7 +691,6 @@ a{
     background-color: #d6564f;
     resize: none;
     margin-top: 15px;
-
 }
 .textarea_thick{
     height: 189px;
@@ -766,9 +824,6 @@ a{
 .company__mail_text{
     margin: -3px 0 0 9px;
 }
-a:hover{
-    color: violet;
-}
 .copyright__wrapper{
     display: flex;
     align-items: center;
@@ -791,4 +846,57 @@ a:hover{
     cursor: pointer;
     background-color: #f06c64;
     border-radius: 50%;
+}
+.modal__wrapper {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    padding-top: 150px;
+    left: auto;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+.modal{
+    position: relative;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 0;
+    font-family: "Lato-Regular", sans-serif;
+    border: 2px solid #f06c64;
+}
+.close {
+    width: 50px;
+    height: 20px;
+    color: rgb(128, 37, 9);
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #d6564f;
+    border: 1px solid #f06c64;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal__header {
+    padding: 2px 16px;
+    color: white;
+}
+.modal__body {
+    text-align: center;
+    font-size: 15px;
+    color: teal;
+    padding: 2px 16px;
+}
+.active{
+    color:red;
 }
