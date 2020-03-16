@@ -88,7 +88,7 @@ span.onclick = function() {
 }
 
 btn.addEventListener('click', function(e){
-    e.stopPropagation();
+  e.stopPropagation();
     let inpObj = document.querySelector(".textarea");
     let inpObj2 = document.querySelector(".textEmail");
     if (inpObj.checkValidity() && inpObj2.checkValidity()) {
@@ -107,5 +107,43 @@ btn.addEventListener('click', function(e){
         p.appendChild(text);
         p2.appendChild(text2);
         modal.style.display = "block";
+        e.preventDefault();
     }
 })
+
+let buttonVertical = document.querySelector('.iphoneVertical__button');
+buttonVertical.addEventListener('click',switchLightVertical);
+let removedVertical = false;
+function switchLightVertical(){
+  let parentVertical = document.querySelector(".main__iphoneVertical");
+  let childVertical = document.querySelector(".iphoneVertical__screen");
+  if(removedVertical){
+    let newChildVertical = document.createElement('div');
+    newChildVertical.className = 'iphoneVertical__screen';
+    parentVertical.appendChild(newChildVertical);
+    removedVertical = false;
+  }
+  else{
+    parentVertical.removeChild(childVertical);
+    removedVertical = true;
+  }
+}
+
+
+let buttonHorizontal = document.querySelector('.iphoneHorizontal__button');
+buttonHorizontal.addEventListener('click',switchLightHorizontal);
+let removedHorizontal = false;
+function switchLightHorizontal(){
+  let parentHorizontal = document.querySelector(".main__iphoneHorizontal");
+  let childHorizontal = document.querySelector(".iphoneHorizontal__screen");
+  if(removedHorizontal){
+    let newChildHorizontal = document.createElement('div');
+    newChildHorizontal.className = 'iphoneHorizontal__screen';
+    parentHorizontal.appendChild(newChildHorizontal);
+    removedHorizontal = false;
+  }
+  else{
+    parentHorizontal.removeChild(childHorizontal);
+    removedHorizontal = true;
+  }
+}
