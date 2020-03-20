@@ -48,28 +48,36 @@ a{
     background-color: #323746;
 }
 main{
+    max-width: 1020px;
     width: 1020px;
     height: auto;
+    /* overflow: hidden; */
 }
 .main__block{
+    position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 1020px;
     height: 594px;
     margin-top: 95px;
     background-color: #f06c64;
 }
 .main__leftArrow{
-    position: relative;
-    margin: 279px 0px 285px 35px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
     width: 30px;
     height: 30px;
+    top: 50%;
+    left: 7%;
+    z-index: 1;
     background-image: url("./assets/images/arrowLeft.png");
     background-position: center;
     background-repeat: no-repeat;
 }
 .iphone__wrapper{
-    width:1020px;
+    width: 860px;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -136,7 +144,7 @@ main{
 }
 .iphoneHorizontal__screen{
     position: relative;
-    margin: -226px 0 0 102.5px;
+    margin: -226px 0 0 103.5px;
     width: 336px;
     height: 190px;
     background-image: url("./assets/images/blueIphone.png");
@@ -164,10 +172,14 @@ main{
     background-repeat: no-repeat;
 }
 .main__rightArrow{
-    position: relative;
-    margin: 279px 35px 285px 21px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
     width: 30px;
     height: 30px;
+    top: 50%;
+    right: 7%;
+    z-index: 1;
     background-image: url("./assets/images/arrowRight.png");
     background-position: center;
     background-repeat: no-repeat;
