@@ -146,10 +146,8 @@ function onScroll(e){
   const divs = document.querySelectorAll('div > a');
   const links = document.querySelectorAll('.navMenu__wrapper  a');
   divs.forEach((el) => {
-    console.log(el.offsetHeight);
     if(el.offsetTop <= curPos + 94){
       links.forEach((a) => {
-        console.log('a.getAtr href =',a.getAttribute('href').substring(1));
         a.classList.remove('active');
         if(el.getAttribute('name') === a.getAttribute('href').substring(1)){
           a.classList.add('active');

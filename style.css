@@ -51,7 +51,6 @@ main{
     max-width: 1020px;
     width: 1020px;
     height: auto;
-    /* overflow: hidden; */
 }
 .main__block{
     position: relative;
@@ -64,14 +63,13 @@ main{
     background-color: #f06c64;
 }
 .main__leftArrow{
-    position: absolute;
-    margin: 0;
+    position: relative;
+    margin: 0px 0px 0px -30px;
     padding: 0;
     width: 30px;
     height: 30px;
-    top: 50%;
-    left: 7%;
-    z-index: 1;
+    top: 47%;;
+    z-index: 3;
     background-image: url("./assets/images/arrowLeft.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -91,7 +89,7 @@ main{
 }
 .iphoneVertical__body{
     position: relative;
-    margin: 40px 0 0 38px;
+    margin: 40px 0 0 34px;
     width: 240px;
     height: 483px;
     background-image: url("./assets/images/corpVertical.png");
@@ -101,7 +99,7 @@ main{
 }
 .iphoneVertical__screen{
     position: relative;
-    margin: -429.2px 0px 68px 64px;
+    margin: -430.2px 0px 68px 60px;
     width: 190px;
     height: 340px;
     background-image: url("./assets/images/yellowIphone.png");
@@ -111,7 +109,7 @@ main{
 }
 .iphoneVertical__button{
     position: relative;
-    margin: -65px 0 0 137px;
+    margin: -64px 0 0 133px;
     width: 43px;
     height: 43px;
     background-image: url("./assets/images/buttonIphone.png");
@@ -121,7 +119,7 @@ main{
 }
 .iphoneVertical__shadow{
     position: relative;
-    margin: -457px 0 0 20px;
+    margin: -457px 0 0 16px;
     width: 300px;
     height: 500px;
     background-image: url("./assets/images/shadowVertical.png");
@@ -144,7 +142,7 @@ main{
 }
 .iphoneHorizontal__screen{
     position: relative;
-    margin: -226px 0 0 103.5px;
+    margin: -227px 0 0 102.5px;
     width: 336px;
     height: 190px;
     background-image: url("./assets/images/blueIphone.png");
@@ -172,13 +170,13 @@ main{
     background-repeat: no-repeat;
 }
 .main__rightArrow{
-    position: absolute;
+    position: relative;
     margin: 0;
     padding: 0;
     width: 30px;
     height: 30px;
-    top: 50%;
-    right: 7%;
+    top: 47%;
+    right: -3%;
     z-index: 1;
     background-image: url("./assets/images/arrowRight.png");
     background-position: center;
@@ -911,4 +909,37 @@ h1, p{
 }
 .active{
     color:red;
+}
+
+@media (max-width: 768px){
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav__wrapper{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 768px;
+    height: 95px;
+    z-index: 3;
+    }
+    .header__block{
+        width: 768px;
+        height: 89px;
+        margin-left: 252px;
+    }
+    .main__block{
+        width: 768px;
+    }
+    .iphone__wrapper {
+        width: 90%;
+    }
+    .iphoneVertical__shadow{
+        margin: 0;
+    }
 }
