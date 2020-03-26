@@ -704,8 +704,8 @@ h1, p{
 }
 .textarea_thick{
     height: 189px;
-    margin: 6px 0 0 0;
-    padding: 12px 0 0 0;
+    margin: 16px 0 0 0;
+    padding: 9px 0 0 0;
 }
 .feedback__btn_submit{
     width: 85px;
