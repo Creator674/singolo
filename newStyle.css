@@ -206,6 +206,51 @@ main {
     width: 100%;
     height: 864px;
     background: #2D303A;
+    color: #666D89;
+}
+
+.portfolio_heading {
+    padding: 3.6rem 0 0 2.5rem;
+    font-family: "Lato-Black", sans-serif;
+    font-size: 2em;
+    letter-spacing: -0.025em;
+}
+
+.portfolio_text {
+    font-family: "Lato-Light", sans-serif;
+    font-size: 1.1em;
+    letter-spacing: -0.003em;
+    margin: 1.3rem 0 0 2.5rem;
+}
+
+.portfolio_buttons {
+    margin: 0.93rem 0 0 2.2rem;
+}
+
+.portfolio_btn {
+    height: 23px;
+    font-family: "Lato-Regular", sans-serif;
+    font-size: 0.82em;
+    border: 1px solid #666D89;
+    background: none;
+    color: #666D89;
+    border-radius: 0.3em;
+    letter-spacing: -0.04em;
+    margin: 0px 0px 0px 6px;
+}
+
+.portfolio_images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio_img {
+    width: 223px;
+    height: 190px;
+    margin: 1.1rem 0.5rem 0px 0.56rem;
 }
 
 .portfolio_line {
