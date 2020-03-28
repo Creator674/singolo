@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -27,9 +31,27 @@ header {
 }
 
 .header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
     width: 100%;
     height: 89px;
     background: #2D303A;
+}
+
+.logo_name {
+    margin: 0px 0px 0.17em 1.65em;
+    text-transform: uppercase;
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+.logo_name::after {
+    content: "*";
+    font-size: 1.125em;
+    color: red;
 }
 
 .header_line{
@@ -38,14 +60,20 @@ header {
     background: #323746;
 }
 
-.logo_wrapper{
-
+.nav_menu {
+    margin-right: 1.95rem;
+    margin-top: 0.25rem;
+    color: white;
+    font-family: "Lato-Bold", sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
 }
 
-.nav_wrapper{
-
+.nav_item {
+    margin: 0px 0.65rem 0px 0.6rem;
+    font-size: 0.7em;
+    color: white;
 }
-
 
 
 
@@ -181,4 +209,23 @@ footer {
     height: 76px;
     width: 100%;
     background: #2D303A;
+}
+
+
+/* with basic margins paddigns / etc */
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
