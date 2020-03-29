@@ -1,62 +1,62 @@
-let srcs = [];
-let portfoliImg = document.querySelectorAll('.portfolio__imgs img');
-let buttons = document.querySelectorAll('.btn');
-let pictures = document.querySelectorAll('.image');
-for (let i = 0; i < buttons.length; i++) {
-    buttons[i].onclick = changePortfolioPictures;
-    buttons[i].addEventListener('click', function() {
-      for (let i = 0; i < buttons.length; i++) {
-        buttons[i].classList.remove('btn_pressed');
-      }
-      this.classList.add('btn_pressed');
-    })
-}
-function changePortfolioPictures(){
-    portfoliImg = document.querySelectorAll('.portfolio__imgs img');
-    pictures = document.querySelectorAll('.image');
-    for(let i = 0; i < portfoliImg.length; i++){
-        srcs[i] = portfoliImg[i].src;
-        portfoliImg[i].remove();
-    }
-    shuffle(srcs);
-    draw();
-    picturesStyle();
-}
-function draw(){
-    for(let i = 0; i < portfoliImg.length; i++){
-    let img = document.createElement('img');
-    img.src = srcs[i];
-    img.classList.add('image');
-    document.querySelector('.portfolio__imgs').appendChild(img);
-    pictures = document.querySelectorAll('.image');
-    }
-}
-function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
+// let srcs = [];
+// let portfoliImg = document.querySelectorAll('.portfolio__imgs img');
+// let buttons = document.querySelectorAll('.btn');
+// let pictures = document.querySelectorAll('.image');
+// for (let i = 0; i < buttons.length; i++) {
+//     buttons[i].onclick = changePortfolioPictures;
+//     buttons[i].addEventListener('click', function() {
+//       for (let i = 0; i < buttons.length; i++) {
+//         buttons[i].classList.remove('btn_pressed');
+//       }
+//       this.classList.add('btn_pressed');
+//     })
+// }
+// function changePortfolioPictures(){
+//     portfoliImg = document.querySelectorAll('.portfolio__imgs img');
+//     pictures = document.querySelectorAll('.image');
+//     for(let i = 0; i < portfoliImg.length; i++){
+//         srcs[i] = portfoliImg[i].src;
+//         portfoliImg[i].remove();
+//     }
+//     shuffle(srcs);
+//     draw();
+//     picturesStyle();
+// }
+// function draw(){
+//     for(let i = 0; i < portfoliImg.length; i++){
+//     let img = document.createElement('img');
+//     img.src = srcs[i];
+//     img.classList.add('image');
+//     document.querySelector('.portfolio__imgs').appendChild(img);
+//     pictures = document.querySelectorAll('.image');
+//     }
+// }
+// function shuffle(array) {
+//     var currentIndex = array.length, temporaryValue, randomIndex;
 
-    while (0 !== currentIndex) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
+//     while (0 !== currentIndex) {
+//       randomIndex = Math.floor(Math.random() * currentIndex);
+//       currentIndex -= 1;
 
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
-    }
+//       temporaryValue = array[currentIndex];
+//       array[currentIndex] = array[randomIndex];
+//       array[randomIndex] = temporaryValue;
+//     }
 
-    return array;
-}
+//     return array;
+// }
 
-function picturesStyle(){
-    for (let i = 0; i < pictures.length; i++) {
-        pictures[i].addEventListener('click', function() {
-          for (let i = 0; i < pictures.length; i++) {
-            pictures[i].classList.remove('currentImage');
-          }
-          this.classList.add('currentImage');
-        })
-    }
-}
-picturesStyle();
+// function picturesStyle(){
+//     for (let i = 0; i < pictures.length; i++) {
+//         pictures[i].addEventListener('click', function() {
+//           for (let i = 0; i < pictures.length; i++) {
+//             pictures[i].classList.remove('currentImage');
+//           }
+//           this.classList.add('currentImage');
+//         })
+//     }
+// }
+// picturesStyle();
 
 
 let modal = document.querySelector('.modal__wrapper');
@@ -101,6 +101,8 @@ btn.addEventListener('click', function(e){
     }
 })
 
+
+//here iphone / but i think i will do it better?//
 let buttonVertical = document.querySelector('.iphoneVertical__button');
 buttonVertical.addEventListener('click',switchLightVertical);
 let removedVertical = false;
@@ -139,22 +141,20 @@ function switchLightHorizontal(){
 }
 
 
-document.addEventListener('scroll', onScroll);
+// document.addEventListener('scroll', onScroll);
 
-function onScroll(e){
-  let curPos = window.scrollY;
-  const divs = document.querySelectorAll('div > a');
-  const links = document.querySelectorAll('.navMenu__wrapper  a');
-  divs.forEach((el) => {
-    console.log(el.offsetHeight);
-    if(el.offsetTop <= curPos + 94){
-      links.forEach((a) => {
-        console.log('a.getAtr href =',a.getAttribute('href').substring(1));
-        a.classList.remove('active');
-        if(el.getAttribute('name') === a.getAttribute('href').substring(1)){
-          a.classList.add('active');
-        }
-      })
-    }
-  })
-}
+// function onScroll(e){
+//   let curPos = window.scrollY;
+//   const divs = document.querySelectorAll('div > a');
+//   const links = document.querySelectorAll('.navMenu__wrapper  a');
+//   divs.forEach((el) => {
+//     if(el.offsetTop <= curPos + 94){
+//       links.forEach((a) => {
+//         a.classList.remove('active');
+//         if(el.getAttribute('name') === a.getAttribute('href').substring(1)){
+//           a.classList.add('active');
+//         }
+//       })
+//     }
+//   })
+// }
