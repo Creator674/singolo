@@ -92,7 +92,7 @@ header {
 main {
     max-width: 1020px;
     margin-top: 95px;
-    height: 3357px;
+    height: fit-content;
     width: 100%;
     background: blue;
 }
@@ -188,8 +188,9 @@ main {
 
 .services_wrapper {
     width: 100%;
-    height: 500px;
-    background: black;
+    min-height: 500px;
+    height: fit-content;
+    background: #F2F2F2;
 }
 
 .services_content {
@@ -198,8 +199,8 @@ main {
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    height: 494px;
-    background: #F2F2F2;
+    min-height: 494px;
+    height: fit-content;
     color: #666D89;
 }
 
@@ -221,7 +222,7 @@ main {
 .services_cards {
     display: flex;
     flex-direction: row;
-    justify-items: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     margin: 0.56rem 1rem 0 1.37rem;
@@ -267,7 +268,8 @@ main {
 
 .portfolio_wrapper {
     width: 100%;
-    height: 870px;
+    min-height: 870px;
+    height: fit-content;
     background: black;
 }
 
@@ -309,7 +311,7 @@ main {
 }
 
 .portfolio_images {
-    max-height: 640px;
+    height: 640px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -420,15 +422,20 @@ main {
 
 .quote_wrapper {
     width: 100%;
-    height: 655px;
-    background: black;
+    min-height: 655px;
+    height: fit-content;
+    background: black
 }
 
 .quote_content {
     width: 100%;
-    height: 649px;
+    height: fit-content;
     background: #F06C64;
     color: #F0D8D9;
+}
+
+.form_wrapper {
+    width: 60%;
 }
 
 .quote_heading {
@@ -448,11 +455,12 @@ main {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: nowrap;
 }
 
 .quote_form {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -463,7 +471,7 @@ main {
 .textarea {
     margin-top: 15px;
     height: 35px;
-    width: 618px;
+    width: 100%;
     background: #D6564F;
     border: 1px solid black;
     border-radius: 0.33rem;
@@ -485,6 +493,7 @@ main {
 }
 
 .info_wrapper {
+    width: 30%;
     margin-left: 1.2rem;
 }
 
@@ -709,4 +718,65 @@ a {
 
 .slider_arrow__right:hover {
     cursor: pointer;
+}
+
+
+/* MEDIA */
+
+@media (max-width: 1000px) {
+    .services_content {
+        min-height: 655px;
+    }
+    .services_cards{
+        margin: 0;
+    }
+}
+
+@media (max-width: 950px) {
+    .phone_wrapper {
+        width: 90%;
+        margin-top: 10%;
+    }
+    .horizontal {
+        width: 350px;
+        background-size: contain;
+    }
+    .horizontalOff {
+        width: 350px;
+        background-size: contain;
+    }
+    .horizontal_btn {
+        margin: 63px 0 0 6px;
+        width: 31px;
+        height: 31px;
+    }
+    .vertical {
+        width: 200px;
+        background-size: contain;
+    }
+    .verticalOff {
+        width: 200px;
+        background-size: contain;
+    }
+    .vertical_btn {
+        width: 31px;
+        height: 31px;
+        margin: 342px 0 0 75px;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .services_content {
+        min-height: 1030px;
+    }
+    .
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .header_content {
+        background-color: #323746;
+    }
 }
