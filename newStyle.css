@@ -134,7 +134,15 @@ main {
     margin: 0 0 0 0.5rem;
     width: 295px;
     height: 490px;
-    background: url(./assets/images/Vertical.png);
+    background: url(./assets/images/phone-vertical.svg);
+    background-repeat: no-repeat;
+}
+
+.verticalOff {
+    margin: 0 0 0 0.5rem;
+    width: 295px;
+    height: 490px;
+    background: url(./assets/images/phone-vertical-noscreen.svg);
     background-repeat: no-repeat;
 }
 
@@ -146,12 +154,20 @@ main {
     margin: 50px 0 0 18px;
     width: 490px;
     height: 295px;
-    background: url(./assets/images/Horizontal.png);
+    background: url(./assets/images/phone-horizontal.svg);
+    background-repeat: no-repeat;
+}
+
+.horizontalOff {
+    margin: 50px 0 0 18px;
+    width: 490px;
+    height: 295px;
+    background: url(./assets/images/phone-horizontal-noscreen.svg);
     background-repeat: no-repeat;
 }
 
 .horizontal_btn {
-    margin: 87px 0 0 7px;
+    margin: 85px 0 0 7px;
 }
 
 .slider_arrow__right {
@@ -643,7 +659,8 @@ a {
     overflow: auto;
     background-color: rgba(0,0,0,0.7);
 }
-.modal{
+
+.modal {
     position: relative;
     width: 70%;
     height: 50%;
@@ -656,6 +673,7 @@ a {
     font-family: "Lato-Regular", sans-serif;
     border: 2px solid #f06c64;
 }
+
 .close {
     width: 50px;
     height: 20px;
@@ -665,19 +683,30 @@ a {
     background-color: #d6564f;
     border: 1px solid #f06c64;
 }
+
 .close:hover,
 .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
+
 .modal_header {
     padding: 2px 16px;
     color: white;
 }
+
 .modal_body {
     text-align: center;
     font-size: 15px;
     color: teal;
     padding: 2px 16px;
+}
+
+.slider_arrow__left:hover {
+    cursor: pointer;
+}
+
+.slider_arrow__right:hover {
+    cursor: pointer;
 }

@@ -124,3 +124,44 @@ btn.addEventListener('click', function(e){
         e.preventDefault();
     }
 })
+
+let vertBut = document.querySelector('.vertical_btn');
+
+vertBut.addEventListener('click', switchLightVertical);
+let removedVertical = false;
+
+function switchLightVertical() {
+    let horParent = document.querySelector('.vertical');
+    let horOffParent = document.querySelector('.verticalOff');
+    if(!removedVertical) {
+        horParent.classList.remove('vertical');
+        horParent.classList.add('verticalOff');
+        removedVertical = true;
+    }
+    else {
+        horOffParent.classList.remove('verticalOff');
+        horOffParent.classList.add('vertical');
+        removedVertical = false;
+    }
+}
+
+
+let horBut = document.querySelector('.horizontal_btn');
+
+horBut.addEventListener('click', switchLightHorizontal);
+let removedHorizontal = false;
+
+function switchLightHorizontal() {
+    let horParent = document.querySelector('.horizontal');
+    let horOffParent = document.querySelector('.horizontalOff');
+    if(!removedHorizontal) {
+        horParent.classList.remove('horizontal');
+        horParent.classList.add('horizontalOff');
+        removedHorizontal = true;
+    }
+    else {
+        horOffParent.classList.remove('horizontalOff');
+        horOffParent.classList.add('horizontal');
+        removedHorizontal = false;
+    }
+}

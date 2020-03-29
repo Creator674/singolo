@@ -122,23 +122,23 @@ function switchLightVertical(){
 }
 
 
-// let buttonHorizontal = document.querySelector('.iphoneHorizontal__button');
-// buttonHorizontal.addEventListener('click',switchLightHorizontal);
-// let removedHorizontal = false;
-// function switchLightHorizontal(){
-//   let parentHorizontal = document.querySelector(".main__iphoneHorizontal");
-//   let childHorizontal = document.querySelector(".iphoneHorizontal__screen");
-//   if(removedHorizontal){
-//     let newChildHorizontal = document.createElement('div');
-//     newChildHorizontal.className = 'iphoneHorizontal__screen';
-//     parentHorizontal.appendChild(newChildHorizontal);
-//     removedHorizontal = false;
-//   }
-//   else{
-//     parentHorizontal.removeChild(childHorizontal);
-//     removedHorizontal = true;
-//   }
-// }
+let buttonHorizontal = document.querySelector('.iphoneHorizontal__button');
+buttonHorizontal.addEventListener('click',switchLightHorizontal);
+let removedHorizontal = false;
+function switchLightHorizontal(){
+  let parentHorizontal = document.querySelector(".main__iphoneHorizontal");
+  let childHorizontal = document.querySelector(".iphoneHorizontal__screen");
+  if(removedHorizontal){
+    let newChildHorizontal = document.createElement('div');
+    newChildHorizontal.className = 'iphoneHorizontal__screen';
+    parentHorizontal.appendChild(newChildHorizontal);
+    removedHorizontal = false;
+  }
+  else{
+    parentHorizontal.removeChild(childHorizontal);
+    removedHorizontal = true;
+  }
+}
 
 
 // document.addEventListener('scroll', onScroll);
